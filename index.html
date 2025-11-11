@@ -13,74 +13,30 @@
 
 <header>
     <div class="container">
-        <a href="index.html" class="logo">
-            
-             Mundo dos Animes
-        </a>
+        <a href="#" class="logo">Mundo dos Animes</a>
         <nav>
             <ul>
-                <li><a href="index.html">Início</a></li>
-                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="#" id="link-home">Início</a></li>
+                <li><a href="#" id="link-sobre">Sobre</a></li>
                 <li>
                     <a href="#">Animes ▼</a>
                     <ul>
-                        <li><a href="onepiece.html">One Piece</a></li>
-                        <li><a href="naruto.html">Naruto</a></li>
-                        <li><a href="kimetsu.html">Kimetsu</a></li>
-                        <li><a href="fullmetal.html">Fullmetal</a></li>
+                        <li><a href="#" id="link-onepiece">One Piece</a></li>
+                        <li><a href="#" id="link-naruto">Naruto</a></li>
+                        <li><a href="#" id="link-kimetsu">Kimetsu</a></li>
+                        <li><a href="#" id="link-fullmetal">Fullmetal</a></li>
                     </ul>
                 </li>
-                <li><a href="contato.html">Contato</a></li>
+                <li><a href="#" id="link-contato">Contato</a></li>
             </ul>
         </nav>
         <button class="menu-toggle" onclick="toggleMenu()">☰</button>
     </div>
 </header>
 
-<section class="hero">
-    <div class="container">
-        <h1>Bem-vindo ao Mundo dos Animes</h1>
-        <p>Explore os melhores animes com informações, imagens e detalhes de cada série.</p>
-    </div>
-</section>
-
 <main class="container">
-    <div class="cards">
-        <!-- One Piece -->
-        <div class="card">
-            <img src="img/onepiece.jpg" alt="One Piece">
-            <h3>One Piece</h3>
-            <div class="tag">Ação</div>
-            <div class="tag">Aventura</div>
-            <a href="onepiece.html" class="btn">Ver Mais</a>
-        </div>
-
-        <!-- Naruto -->
-        <div class="card">
-            <img src="img/naruto.jpg" alt="Naruto">
-            <h3>Naruto</h3>
-            <div class="tag">Ação</div>
-            <div class="tag">Shounen</div>
-            <a href="naruto.html" class="btn">Ver Mais</a>
-        </div>
-
-        <!-- Kimetsu no Yaiba -->
-        <div class="card">
-            <img src="img/kimetsu.jpg" alt="Kimetsu no Yaiba">
-            <h3>Kimetsu no Yaiba</h3>
-            <div class="tag">Ação</div>
-            <div class="tag">Fantasia</div>
-            <a href="kimetsu.html" class="btn">Ver Mais</a>
-        </div>
-
-        <!-- Fullmetal Alchemist -->
-        <div class="card">
-            <img src="img/fullmetal.jpg" alt="Fullmetal Alchemist">
-            <h3>Fullmetal Alchemist</h3>
-            <div class="tag">Ação</div>
-            <div class="tag">Aventura</div>
-            <a href="fullmetal.html" class="btn">Ver Mais</a>
-        </div>
+    <div id="root">
+        <!-- O conteúdo será carregado dinamicamente via JavaScript -->
     </div>
 </main>
 
@@ -89,5 +45,6 @@
 </footer>
 
 <script src="js/menu.js"></script>
+<script src="js/main.js"></script>
 </body>
 </html>

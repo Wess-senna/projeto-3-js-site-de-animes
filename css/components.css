@@ -67,3 +67,16 @@
     padding: 5px;
 }
 
+.card-detail img {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  display: block;
+  margin: 20px auto;
+}
+
+.card-detail {
+  text-align: center;
+  padding: 20px;
+}
+
