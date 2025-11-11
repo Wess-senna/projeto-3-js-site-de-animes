@@ -85,7 +85,7 @@ function onePieceTemplate() {
       <h1>One Piece</h1>
       <img src="img/onepiece.jpg" alt="One Piece">
       <h2>História e Criação</h2>
-      <p>One Piece foi criado por Eiichiro Oda, que começou como assistente de mangakás antes de lançar a série em dezembro de 1997...</p>
+      <p>One Piece foi criado por Eiichiro Oda, que começou como assistente de mangakás antes de lançar a série em dezembro de 1997 na revista Weekly Shōnen Jump. Antes disso, Oda publicou dois one‑shots sob o título “Romance Dawn”, que serviram como protótipo para o universo de One Piece. Ele se inspirou em piratas clássicos, mitologia de exploração, e obras como Vickie o Viking, além de combinar humor, aventura e drama para criar um mundo vasto e interconectado. O mangá rapidamente ganhou popularidade no Japão e internacionalmente, tornando‑se um dos maiores sucessos da história dos quadrinhos. Ao longo dos anos, Oda expandiu o enredo com complexidade crescente, criando sagas, personagens numerosos e mistérios de longo prazo, como o “One Piece” em si e o “Século Perdido”. A franquia gerou adaptações em anime, filmes, jogos e até live‑action, solidificando seu impacto cultural global.</p>
       <h2>Curiosidades</h2>
       <ul>
         <li>O mangá detém o recorde do Guinness World Records de “mais cópias publicadas para uma mesma série por um único autor”.</li>
@@ -111,7 +111,7 @@ function narutoTemplate() {
       <h1>Naruto</h1>
       <img src="img/naruto.jpg" alt="Naruto">
       <h2>História e Criação</h2>
-      <p>Naruto foi criado por Masashi Kishimoto e começou sua publicação como mangá em 1999 na Weekly Shōnen Jump...</p>
+      <p>Naruto foi criado por Masashi Kishimoto e começou sua publicação como mangá em 1999 na Weekly Shōnen Jump. Antes disso, Kishimoto havia desenvolvido um one‑shot em 1995 chamado Karakuri, e em 1997 um outro protótipo com um garoto que se transformava em raposa, que serviu como base para Naruto. Ele decidiu ambientar a história em um mundo de ninjas, incorporando mitologia japonesa, bestas com caudas e elementos de superação pessoal, rejeição e amizade. A narrativa segue o jovem ninja Naruto Uzumaki, que busca se tornar Hokage e obter reconhecimento, enquanto enfrenta inimigos, forma laços e cresce como pessoa. A obra evoluiu seu estilo, personagens e temas conforme avançava, alcançando enorme popularidade no Japão e no mundo, gerando anime, filmes, séries de continuação e produtos derivados.</p>
       <h2>Curiosidades</h2>
       <ul>
         <li>O conceito inicial de Naruto envolvia um garoto cozinheiro ninja.</li>
@@ -136,7 +136,7 @@ function kimetsuTemplate() {
       <h1>Kimetsu no Yaiba</h1>
       <img src="img/kimetsu.jpg" alt="Kimetsu no Yaiba">
       <h2>História e Criação</h2>
-      <p>Kimetsu no Yaiba, também chamado Demon Slayer, foi criado por Koyoharu Gotouge e começou a ser serializado em 2016...</p>
+      <p>Kimetsu no Yaiba, também chamado Demon Slayer, foi criado por Koyoharu Gotouge e começou a ser serializado em 15 de fevereiro de 2016 na revista Weekly Shōnen Jump. O autor havia trabalhado em one‑shots como Kagarigari em 2013, que apresentavam caçadores de criaturas sobrenaturais, e refinou a ideia até apresentar Tanjiro Kamado como protagonista e Nezuko como irmã‑demônio. A série combina ação, horror sobrenatural, folclore japonês e drama familiar, criando uma narrativa emocionalmente intensa. A trajetória de Gotouge mostra dedicação ao detalhe visual e à ambientação, o que resultou numa adaptação em anime pelo estúdio Ufotable com grande aclamação. Em pouco tempo, a franquia tornou‑se fenômeno global, ganhando filmes de enorme sucesso e ultrapassando centenas de milhões de cópias vendidas. A história termina em 2020 no mangá, mas segue ativa em outras mídias e continua a influenciar o gênero shōnen moderno.</p>
       <h2>Curiosidades</h2>
       <ul>
         <li>O primeiro filme da franquia bateu recordes de bilheteria no Japão.</li>
@@ -160,7 +160,7 @@ function fullmetalTemplate() {
       <h1>Fullmetal Alchemist</h1>
       <img src="img/fullmetal.jpg" alt="Fullmetal Alchemist">
       <h2>História e Criação</h2>
-      <p>Fullmetal Alchemist foi criado por Hiromu Arakawa e publicado entre 2001 e 2010...</p>
+      <p>Fullmetal Alchemist foi criado por Hiromu Arakawa e publicado entre 2001 e 2010, reunindo 27 volumes de mangá. Arakawa, que cresceu em uma fazenda em Hokkaido, pesquisou alquimia, Revolução Industrial europeia, temas de guerra, pobreza e moralidade para construir o mundo de FMA. A história segue os irmãos Edward e Alphonse Elric após um experimento alquímico que deu errado, enquanto buscam a Pedra Filosofal para recuperar seus corpos perdidos. Arakawa integrou conflitos humanos, dilemas éticos e estrutura de poder num enredo que vai além da típica aventura shōnen, explorando sacrifício, irmandade e redenção. O sucesso resultou em duas adaptações principais para anime, várias produções derivadas e presença duradoura no cânone dos animes. Fullmetal Alchemist permanece como uma obra de referência tanto em narrativa quanto em construção de mundo.</p>
       <h2>Curiosidades</h2>
       <ul>
         <li>Leitura de livros sobre alquimia e entrevistas com refugiados.</li>
