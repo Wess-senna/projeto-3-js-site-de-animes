@@ -1,0 +1,69 @@
+@import url('variables.css');
+
+/* ====== CONTAINER DE CARDS (ANIMES) ====== */
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: var(--sp-4);
+    margin-top: var(--sp-4);
+}
+
+/* Para telas médias (tablets, notebook pequeno) */
+@media (max-width: 1024px) {
+    .card-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+/* Para celulares grandes */
+@media (max-width: 768px) {
+    .card-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Para celulares pequenos */
+@media (max-width: 480px) {
+    .card-container {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* ====== CARD ====== */
+.card {
+    background-color: var(--color-dark-light);
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+    text-decoration: none;
+    color: var(--color-light);
+    transition: 0.3s;
+}
+
+.card img {
+    width: 100%;
+    height: 230px;
+    object-fit: cover;
+}
+
+.card h3 {
+    padding: var(--sp-2);
+    color: var(--color-primary);
+    font-size: var(--font-md);
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px var(--color-primary);
+}
+/* components.css */
+
+/* Logo do site */
+.logo-img {
+    width: 40px;
+    height: auto;
+    background-color: var(--color-dark); /* mesma cor do header */
+    border-radius: 5px;
+    padding: 5px;
+}
+

@@ -1,0 +1,214 @@
+@import url('variables.css');
+
+/* Reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Body */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--color-dark);
+    color: var(--color-light);
+    line-height: 1.6;
+}
+
+/* Container */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Header */
+header {
+    background-color: rgba(20,20,20,0.9);
+    padding: var(--sp-2) 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    backdrop-filter: blur(8px);
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Logo com imagem */
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: var(--font-lg);
+    font-weight: bold;
+    color: var(--color-primary);
+    text-decoration: none;
+}
+
+.logo-img {
+    width: 40px;
+    height: auto;
+    background-color: var(--color-dark);
+    border-radius: 5px;
+    padding: 5px;
+}
+
+/* Menu */
+nav ul {
+    display: flex;
+    gap: var(--sp-3);
+}
+
+nav ul li {
+    position: relative;
+}
+
+nav ul li a {
+    color: var(--color-light);
+    font-size: var(--font-md);
+    padding: var(--sp-1) var(--sp-2);
+    border-radius: 8px;
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+nav ul li a:hover,
+nav ul li a.ativo {
+    background-color: var(--color-primary);
+    color: var(--color-dark);
+}
+
+/* Dropdown */
+nav ul li ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: var(--color-dark2);
+    border-radius: 8px;
+    flex-direction: column;
+    min-width: 150px;
+    padding: var(--sp-1) 0;
+    z-index: 500;
+}
+
+nav ul li:hover ul {
+    display: flex;
+}
+
+nav ul li ul li a {
+    padding: var(--sp-1) var(--sp-2);
+    display: block;
+}
+
+/* Botão mobile */
+.menu-toggle {
+    display: none;
+    font-size: 2rem;
+    background: none;
+    color: var(--color-light);
+    border: none;
+    cursor: pointer;
+}
+
+/* Hero */
+.hero {
+    text-align: center;
+    padding: var(--sp-6) var(--sp-2);
+}
+
+.hero h1 {
+    font-size: var(--font-xl);
+    color: var(--color-primary);
+    margin-bottom: var(--sp-2);
+}
+
+.hero img {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 12px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.3);
+}
+
+/* Grid de cards (12 colunas) */
+.cards {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: var(--sp-3);
+    margin-top: var(--sp-4);
+}
+
+/* Cada card ocupa 3 colunas (4 cards por linha) */
+.card {
+    grid-column: span 3;
+    background-color: var(--color-dark2);
+    padding: var(--sp-2);
+    border-radius: 12px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: var(--sp-2);
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.5);
+}
+
+/* Tags */
+.tag {
+    display: inline-block;
+    padding: 3px 8px;
+    background-color: var(--color-secondary);
+    color: var(--color-dark);
+    font-size: var(--font-sm);
+    border-radius: 5px;
+    margin: 2px;
+}
+
+/* Botões */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: var(--color-primary);
+    color: var(--color-light);
+    border-radius: 8px;
+    text-decoration: none;
+    transition: 0.3s;
+    margin-top: var(--sp-2);
+}
+
+.btn:hover {
+    background-color: var(--color-light);
+    color: var(--color-dark);
+}
+
+/* Footer */
+footer {
+    background-color: var(--color-dark2);
+    color: var(--color-gray);
+    text-align: center;
+    padding: var(--sp-3) 0;
+    margin-top: var(--sp-4);
+}
+
+/* Responsividade */
+@media (max-width: 1200px) { .card { grid-column: span 4; } }
+@media (max-width: 1024px) { .card { grid-column: span 6; } }
+@media (max-width: 768px) { 
+    nav ul { display: none; flex-direction: column; background-color: var(--color-dark2); position: absolute; top: 70px; right: 10px; padding: var(--sp-2); border-radius: 10px; width: 200px; }
+    nav ul.active { display: flex; }
+    .menu-toggle { display: block; }
+    .hero h1 { font-size: var(--font-lg); }
+    .card { grid-column: span 12; }
+}
+@media (max-width: 480px) { .hero h1 { font-size: var(--font-md); } }
+@media (max-width: 320px) { .hero h1 { font-size: var(--font-sm); } }
